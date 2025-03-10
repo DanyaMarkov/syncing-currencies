@@ -1,0 +1,154 @@
+{
+    "dataBase": [
+        {
+            "date": "04.03.2025",
+            "currency": "dollar",
+            "code": "AUD",
+            "rate": "14.798"
+        },
+        {
+            "date": "04.03.2025",
+            "currency": "renminbi",
+            "code": "CNY",
+            "rate": "3.271"
+        },
+        {
+            "date": "04.03.2025",
+            "currency": "dollar",
+            "code": "SGD",
+            "rate": "17.699"
+        },
+        {
+            "date": "04.03.2025",
+            "currency": "lira",
+            "code": "TRY",
+            "rate": "65.108"
+        },
+        {
+            "date": "04.03.2025",
+            "currency": "dollar",
+            "code": "USD",
+            "rate": "23.733"
+        },
+        {
+            "date": "06.03.2025",
+            "currency": "dollar",
+            "code": "AUD",
+            "rate": "14.702"
+        },
+        {
+            "date": "06.03.2025",
+            "currency": "renminbi",
+            "code": "CNY",
+            "rate": "3.199"
+        },
+        {
+            "date": "06.03.2025",
+            "currency": "dollar",
+            "code": "SGD",
+            "rate": "17.401"
+        },
+        {
+            "date": "06.03.2025",
+            "currency": "lira",
+            "code": "TRY",
+            "rate": "63.650"
+        },
+        {
+            "date": "06.03.2025",
+            "currency": "dollar",
+            "code": "USD",
+            "rate": "23.183"
+        },
+        {
+            "date": "03.03.2025",
+            "currency": "dollar",
+            "code": "AUD",
+            "rate": "14.936"
+        },
+        {
+            "date": "03.03.2025",
+            "currency": "renminbi",
+            "code": "CNY",
+            "rate": "3.291"
+        },
+        {
+            "date": "03.03.2025",
+            "currency": "dollar",
+            "code": "SGD",
+            "rate": "17.796"
+        },
+        {
+            "date": "03.03.2025",
+            "currency": "lira",
+            "code": "TRY",
+            "rate": "65.810"
+        },
+        {
+            "date": "03.03.2025",
+            "currency": "dollar",
+            "code": "USD",
+            "rate": "23.986"
+        },
+        {
+            "date": "07.03.2025",
+            "currency": "dollar",
+            "code": "AUD",
+            "rate": "14.496"
+        },
+        {
+            "date": "07.03.2025",
+            "currency": "renminbi",
+            "code": "CNY",
+            "rate": "3.184"
+        },
+        {
+            "date": "07.03.2025",
+            "currency": "dollar",
+            "code": "SGD",
+            "rate": "17.314"
+        },
+        {
+            "date": "07.03.2025",
+            "currency": "lira",
+            "code": "TRY",
+            "rate": "63.191"
+        },
+        {
+            "date": "07.03.2025",
+            "currency": "dollar",
+            "code": "USD",
+            "rate": "23.038"
+        },
+        {
+            "date": "05.03.2025",
+            "currency": "dollar",
+            "code": "AUD",
+            "rate": "14.715"
+        },
+        {
+            "date": "05.03.2025",
+            "currency": "renminbi",
+            "code": "CNY",
+            "rate": "3.227"
+        },
+        {
+            "date": "05.03.2025",
+            "currency": "dollar",
+            "code": "SGD",
+            "rate": "17.526"
+        },
+        {
+            "date": "05.03.2025",
+            "currency": "lira",
+            "code": "TRY",
+            "rate": "64.322"
+        },
+        {
+            "date": "05.03.2025",
+            "currency": "dollar",
+            "code": "USD",
+            "rate": "23.440"
+        }
+    ]
+}
