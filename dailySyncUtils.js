@@ -14,12 +14,27 @@ async function setCurrencyData(textData) {
         return;
     }
 
+    const currenciesFile = 'currencies.json';
+    const currenciesFromFile = JSON.parse(fs.readFileSync(currenciesFile)).currencies;
+
     for (let i = 2; i < lines.length; i++) {
         if (i !== 1) {
             const elements = lines[i].split('|');
             const currency = elements[1];
             const code = elements[3];
             const rate = elements[4];
+
+            /** Проверка на наличие валюты в конфиге валют */
+            let isCurrencyExist = false;
+            for (const currData of currenciesFromFile) {
+                if (currData.currency === currency && currData.code === code) {
+                    isCurrencyExist = true;
+                }
+            }
+            if (!isCurrencyExist) {
+                continue;
+            }
+
             const newData = {
                 date: syncDate,
                 currency: currency,
@@ -51,7 +66,7 @@ const performSync = async () => {
         setCurrencyData(data);
         console.log('Синхронизация завершена');
     } catch (error) {
-        console.error('An error occurred while fetching data:', error);
+        console.error('Ошибка при получении данных:', error);
     }
 };
 
