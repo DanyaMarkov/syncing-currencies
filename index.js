@@ -26,5 +26,5 @@ const endDate = '07.03.2025';
 
 app.listen(PORT, () => {
     console.log(`Сервер работает на порте: ${PORT}`);
-    fillByPeriod(startDate, endDate);
+    // fillByPeriod(startDate, endDate);
 });

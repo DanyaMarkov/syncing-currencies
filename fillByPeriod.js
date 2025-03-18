@@ -63,7 +63,7 @@ const fillDb = async (date) => {
         `https://www.cnb.cz/en/financial_markets/foreign_exchange_market/exchange_rate_fixing/daily.txt?date=${date}`
     );
 
-    console.log('response = ', response);
+    // console.log('response = ', response);
 
     if (response) {
         setCurrencyData(response.data, date);
